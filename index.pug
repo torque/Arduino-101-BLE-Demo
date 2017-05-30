@@ -1,0 +1,23 @@
+doctype html
+head
+	meta(charset='utf-8')
+	style
+		include:stylus style.styl
+body
+	#connection
+		span.text Connected to 
+		span.name nothing
+	#IMU
+		.labels.rowlike
+			span.element.x X
+			span.element.y Y
+			span.element.z Z
+		.values.rowlike
+			span.element.x 0
+			span.element.y 0
+			span.element.z 0
+	#LEDBUTTON
+		span.text LED: 
+			span.state ?
+	script
+		include main.js

@@ -1,0 +1,4 @@
+node node_modules/pug-cli/index.js -w index.pug &
+PUG_PID=$!
+node_modules/coffeescript/bin/coffee -wc .
+kill $PUG_PID

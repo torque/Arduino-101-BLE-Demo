@@ -1,0 +1,3 @@
+node_modules/coffeescript/bin/coffee -c .
+node node_modules/pug-cli/index.js index.pug
+Electron.app/Contents/MacOS/Electron index.js

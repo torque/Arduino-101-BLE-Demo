@@ -1,0 +1,17 @@
+{
+  "name": "electron-ble",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "noble": "1.8.x",
+  },
+  "devDependencies": {
+    "electron-rebuild": "^1.5.11",
+    "coffeescript": "next",
+    "jstransformer": "^1.0.0",
+    "jstransformer-coffee-script": "github:jstransformers/jstransformer-coffee-script",
+    "jstransformer-stylus": "^1.3.0",
+    "pug-cli": "1.0.0-alpha6",
+    "stylus": "^0.54.5"
+  }
+}
