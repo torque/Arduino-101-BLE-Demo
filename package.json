@@ -1,11 +1,13 @@
 {
-  "name": "electron-ble",
+  "name": "Arduino-101-BLE-Demo",
+  "productName": "Arduino 101 BLE Demo",
   "version": "0.0.0",
   "main": "index.js",
   "dependencies": {
-    "noble": "1.8.x",
+    "noble": "1.8.x"
   },
   "devDependencies": {
+    "electron": "1.6.10",
     "electron-rebuild": "^1.5.11",
     "coffeescript": "next",
     "jstransformer": "^1.0.0",
